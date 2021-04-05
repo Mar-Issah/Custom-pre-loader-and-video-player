@@ -31,13 +31,12 @@ body {
 	transition: var(--transition);
 }
 
-/* when this become availabe the preload is gone and application starts */
+
 .hide-preloader {
 	z-index: -999;
 	visibility: hidden;
 }
 
-/* a cover on top of the video /after which you dont have access to the controls*/
 header::after {
 	content: "";
 	position: absolute;
@@ -78,7 +77,7 @@ h1 {
 	transition: var(--transition);
 }
 
-/* the third button which covers the play and pause as you swtich */
+
 .switch {
 	position: absolute;
 	width: 50%;
@@ -92,7 +91,6 @@ h1 {
 	transition: var(--transition);
 }
 
-/* you use the slide to move the third switch span/button by default it is positioned right of the button is 50% from left use js to toggle*/
 .slide .switch {
 	left: 50%;
 }
