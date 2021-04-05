@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Video</title>
+
+		<!-- styles -->
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+
+	<body>
+		<!-- use to preload before the application starts -->
+		<div class="preloader">
+			<img src="/preload.gif" alt="preloader" />
+		</div>
+		<header>
+			<!-- the moment you load video it starts playing auto pay with controls and loops avoer and over-->
+			<video class="video-container" muted autoplay loop>
+				<source src="./birds-flying.mp4" type="video/mp4" />
+			</video>
+		</header>
+		<h1>Flying Birds</h1>
+
+		<!-- video-switch -->
+		<button class="switch-btn slide">
+			<span>play</span>
+			<span>pause</span>
+			<span class="switch"></span>
+		</button>
+		<!-- javascript -->
+		<script src="/index.js"></script>
+	</body>
+</html>

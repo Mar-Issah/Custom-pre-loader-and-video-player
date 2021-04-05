@@ -1,0 +1,107 @@
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--transition: all 0.5s linear;
+}
+
+body {
+	color: white;
+	line-height: 1.5;
+	font-size: 0.875rem;
+}
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f2f2f2;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	visibility: visible;
+	z-index: 999;
+	transition: var(--transition);
+}
+
+/* when this become availabe the preload is gone and application starts */
+.hide-preloader {
+	z-index: -999;
+	visibility: hidden;
+}
+
+/* a cover on top of the video /after which you dont have access to the controls*/
+header::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -2;
+}
+h1 {
+	text-align: center;
+	margin: 15rem auto;
+	transition: var(--transition);
+}
+
+.switch-btn {
+	position: absolute;
+	bottom: 7%;
+	left: 7%;
+	width: 7rem;
+	height: 2rem;
+	font-size: 1rem;
+	display: flex;
+	border-radius: 0.5rem;
+	align-items: center;
+	justify-content: space-around;
+	border: none;
+	transition: var(--transition);
+}
+
+/* the third button which covers the play and pause as you swtich */
+.switch {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: violet;
+	border-radius: 0.5rem;
+	margin: 0;
+	display: block;
+	transition: var(--transition);
+}
+
+/* you use the slide to move the third switch span/button by default it is positioned right of the button is 50% from left use js to toggle*/
+.slide .switch {
+	left: 50%;
+}
+
+@media (min-width: 800px) {
+	body {
+		font-size: 1rem;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+}
