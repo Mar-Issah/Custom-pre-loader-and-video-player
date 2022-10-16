@@ -3,7 +3,7 @@ A simple and creative custom pre-loader and video player  using HTML5, CSS3 and 
 
 ## About The Project
 
-This is a single page web app which diplays a preloader on load and after a video player. The video player has three button play, pause and a slider button which when click slides left/ right to play or pause the video
+This is a single page web app which diplays a preloader on load and after a video player. The video player has three button play, pause and a slider button which when click slides left/ right to play or pause the video.
 
 ![Custom Pre-loader and Video player](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617640385/My%20Website%20Projects/video_t4xahg.png)
 
