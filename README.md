@@ -1,5 +1,5 @@
 # Custom Pre-loader and Video player
-A simple and creative custom pre-loader and video player buitl with HTML5, CSS3 and vanilla JavaScript.
+A simple and creative custom pre-loader and video player  using HTML5, CSS3 and JavaScript.
 
 ## About The Project
 
@@ -28,7 +28,7 @@ This is JavaScript Web application which runs in the browser. You need a V8 engi
 
 ### Installation
 
-1. Clone the repo on your local machine
+1. Clone the repo on your local machine.
    ```sh
    git clone https://github.com/Mar-Issah/Custom-pre-loader-and-video-player.git
    ```
