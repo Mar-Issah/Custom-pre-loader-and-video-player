@@ -1,5 +1,5 @@
 # Custom Pre-loader and Video player
-A simple and creative custom pre-loader and video player  using HTML5, CSS3 and JavaScript.
+A simple and creative custom pre-loader and video player buitl with HTML5, CSS3 and vanilla JavaScript.
 
 ## About The Project
 
