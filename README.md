@@ -41,7 +41,7 @@ This is JavaScript Web application which runs in the browser. You need a V8 engi
 <!-- USAGE EXAMPLES -->
 
 ## Project View
-[Click here](https://codepen.io/marsiya-issah/full/BapZGqP) to view project on CodePen
+[Click here](https://codepen.io/marsiya-issah/full/BapZGqP) to view project on CodePen.
 
 
 <br>
